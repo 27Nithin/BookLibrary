@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Input Processing</title>
+  <script src="index.js"></script>
+</head>
+<form action="next-page.html" method="psw"></form>
+<link rel="stylesheet" href="index.css">
+  <div>
+    <img src="p3.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label for="psw"><b>User Name</b></label>
+    <input type="text" placeholder="User name" id="name" name="name" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
+    <!-- <input type="button" value="Submit" onclick="processInput()" class="a"> -->
+    <button type="submit" onclick="processInput()">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#ffffff">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div>
+</form>
